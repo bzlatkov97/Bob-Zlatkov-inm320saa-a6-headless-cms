@@ -1,0 +1,192 @@
+body {
+    background-color: #F7F8FC;
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container-fluid {
+    width: 100%;
+}
+
+.search-button {
+    background-color: transparent;
+}
+
+.sidebar {
+    background-color: #363740;
+    min-height: 60vh;
+    position: relative;
+}
+
+h6 {
+    color: #A4A6B3;
+    gap: 15px;
+    margin-bottom: 40px;
+    justify-content: center;
+}
+
+.dashboard-logo {
+    width: 32px;
+}
+
+.nav-link {
+    color: #A4A6B3;
+    gap: 12px;
+    justify-content: center;
+    padding: 15px;
+}
+
+.nav-link span {
+    padding-left: 20px;
+}
+
+.nav-symbol {
+    padding-right: 10px;
+}
+
+.sidebar-nav .nav-link {
+    padding: 14px 20px;
+    color: #9aa4b2;
+    text-decoration: none;
+}
+
+.sidebar-nav .nav-link:hover {
+    background: #3f434c;
+}
+
+.nav-icon {
+    width: 18px;
+}
+
+/* When clicked on */
+.nav-link:focus {
+    background-color: #474b55;
+    border-left: 3px solid #DDE2FF;
+    color: #9FA2B4;
+    height: 56px;
+}
+
+.divider {
+    opacity: 10%;
+}
+
+.main {
+    padding: 20px;
+}
+
+.avatar {
+    width: 44px;
+    height: 44px;
+}
+
+article {
+    cursor: pointer;
+}
+
+.hover-border {
+    border: 1px solid #DFE0EB;
+    /* default: no visible border */
+    transition: border-color 0.3s, box-shadow 0.3s, color 0.3s;
+}
+
+.hover-border:hover {
+    border: 2px solid #3751FF;
+    /* border color on hover */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    color: #3751FF;
+}
+
+.hover-border h3,
+.hover-border p {
+    transition: color 0.3s;
+    /* smooth color transition for all text */
+}
+
+.hover-border:hover h3,
+.hover-border:hover p {
+    color: #3751FF;
+}
+
+.h6 {
+    color: #9FA2B4;
+}
+
+.trends {
+    color: #252733;
+}
+
+.text-muted {
+    color: #9FA2B4;
+}
+
+.color-key {
+    width: 16px;
+    height: 2px;
+}
+
+.currentTimeDate {
+    color: #9FA2B4;
+}
+
+.dashboard-card {
+    border: none;
+    box-shadow: none;
+    /* optional if you want it completely flat */
+}
+
+.chart-placeholder {
+    min-height: 250px;
+}
+
+/* Container for the right-side column */
+.stats-container {
+    border-left: 1px solid #DFE0EB;
+    /* Vertical line separating chart from stats */
+    background-color: #FFFFFF;
+}
+
+/* Individual Stat Item */
+.stat-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 24px 16px;
+    /* Vertical and horizontal padding */
+    text-align: center;
+    flex: 1;
+    /* Makes all boxes take up equal height */
+    border-bottom: 1px solid #DFE0EB;
+    /* The horizontal line */
+}
+
+.stat-label {
+    color: #9FA2B4;
+}
+
+@media (min-width: 768px) {
+
+    body {
+        margin: 0;
+    }
+
+    .sidebar {
+        position: sticky;
+        top: 0;
+        height: 100vh;
+    }
+
+    .nav-link {
+        justify-content: left;
+    }
+
+    .main {
+        padding: 0;
+        margin-left: 255px;
+    }
+
+}

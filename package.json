@@ -1,0 +1,20 @@
+{
+  "name": "bob-zlatkov-inm320saa-a5-frontend-framework",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "goserver": "lite-server --baseDir=\"public\"",
+    "start": "bootstrap \"npm run goserver\" \"npm run watch\""
+  },
+  "keywords": [],
+  "author": "Bob Zlatkov",
+  "license": "private",
+  "private": true,
+  "description": "",
+  "dependencies": {
+    "bootstrap": "^5.3.8"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
