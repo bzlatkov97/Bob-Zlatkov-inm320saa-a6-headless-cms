@@ -1,6 +1,5 @@
 body {
     background-color: #F7F8FC;
-    overflow-x: hidden;
 }
 
 img {
@@ -76,6 +75,10 @@ h6 {
 
 .main {
     padding: 20px;
+}
+
+.vertical-divider {
+    height: 25px;
 }
 
 .avatar {
@@ -166,6 +169,64 @@ article {
 
 .stat-label {
     color: #9FA2B4;
+}
+
+.infoCards {
+    border-radius: 12px;
+    overflow: hidden;
+    /* ensures lines hit edges cleanly */
+    display: flex;
+    align-items: stretch;
+}
+
+/* Header spacing */
+.card-header-custom {
+    padding: 16px 20px;
+}
+
+/* Rows */
+.card-row {
+    padding: 14px 20px;
+    border-top: 1px solid #e9ecef;
+    height: 56px;
+}
+
+.text-primary {
+    text-decoration: none;
+}
+
+.subText {
+    opacity: 60%;
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
+.group-name {
+    font-weight: 600;
+    opacity: 100%;
+}
+
+
+.text-muted {
+    color: #9FA2B4;
+    opacity: 60%;
+    font-size: 1rem;
+}
+
+.form-check-input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+
+    width: 18px;
+    height: 18px;
+
+    border: 2px solid #cbd5e1;
+    border-radius: 50% !important;
+    /* force circle */
+
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
 }
 
 @media (min-width: 768px) {

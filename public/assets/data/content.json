@@ -1,0 +1,89 @@
+{
+    "site_name": "Overview",
+    "info_cards": [
+        {
+            "title": "Unresolved tickets",
+            "subtitle": "Group: Support",
+            "link_text": "View details",
+            "rows": [
+                {
+                    "label": "Waiting on Feature Request",
+                    "value": "4238"
+                },
+                {
+                    "label": "Awaiting Customer Response",
+                    "value": "1005"
+                },
+                {
+                    "label": "Awaiting Developer Fix",
+                    "value": "914"
+                },
+                {
+                    "label": "Pending",
+                    "value": "281"
+                }
+            ],
+            "new_tab": false
+        },
+        {
+            "title": "Tasks",
+            "subtitle": "Today",
+            "link_text": "View all",
+            "tasks": [
+                {
+                    "label": "Finish ticket update",
+                    "status": "URGENT",
+                    "checked": false
+                },
+                {
+                    "label": "Create new ticket example",
+                    "status": "NEW",
+                    "checked": false
+                },
+                {
+                    "label": "Update ticket report",
+                    "status": "DEFAULT",
+                    "checked": true
+                }
+            ],
+            "new_tab": false
+        }
+    ],
+    "main_nav": [
+        {
+            "name": "Overview",
+            "icon": "assets/images/overview.png"
+        },
+        {
+            "name": "Tickets",
+            "icon": "assets/images/tickets.png"
+        },
+        {
+            "name": "Ideas",
+            "icon": "assets/images/ideas.png"
+        },
+        {
+            "name": "Contacts",
+            "icon": "assets/images/contacts.png"
+        },
+        {
+            "name": "Agents",
+            "icon": "assets/images/agents.png"
+        },
+        {
+            "name": "Articles",
+            "icon": "assets/images/articles.png"
+        },
+        {
+            "divider": true
+        },
+        {
+            "name": "Settings",
+            "icon": "assets/images/settings.png"
+        },
+        {
+            "name": "Subscription",
+            "icon": "assets/images/subscription.png"
+        }
+    ]
+}
